@@ -1,1 +1,67 @@
-hello world
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pronix</title>
+</head>
+<body>
+    <style>
+        * {
+            font-family: 'Product Sans';
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .mb1 { margin-bottom: 10px }
+        .mr1 { margin-right: 10px; }
+
+        .mz { margin: 0 }
+        .pz { padding: 0 }
+
+        .w3 {
+            width: 35px;
+        }
+
+        .logo-img {
+            border-radius: 10px;
+            width: 160px;
+            height: 160px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(assets/logo.jpg);
+        }
+    </style>
+    <div class="flex" style="height: 100vh;">
+        <div class="flex">
+            <div class="logo-img mb1" style="margin-right: 40px"></div>
+        </div>
+        <div>
+            <h2 class="flex mz pz">Iskander Karimov</h2>
+            frontend developer
+            <div class="flex" style="box-sizing: border-box; width: min-content;">
+                <a href="https://npmjs.com/~pronix" target="blank">
+                    <img src="https://img.icons8.com/color/48/000000/npm.png" class="mr1"/>
+                </a>
+                <a href="https://vk.com/iskanderkarimovstudio" target="blank">
+                    <img src="https://img.icons8.com/color/100/000000/vk-circled.png" class="mr1 w3"/>
+                </a>
+                <a href="https://github.com/pronix575" target="blank">
+                    <img src="https://img.icons8.com/fluent/100/000000/github.png" class="mr1 w3"/>
+                </a>
+                <a href="https://behance.net/proenix575b823" target="blank">
+                    <img src="https://img.icons8.com/color/100/000000/behance.png" class="w3 "/>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
